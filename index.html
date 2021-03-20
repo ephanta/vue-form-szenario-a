@@ -193,7 +193,7 @@
             <p class="label">Anmerkung:</p>
             <textarea v-model="comment" name="comment" required></textarea>
           </div>
-          <input type="submit" value="Senden" />
+          <input v-on:click="requirement" type="submit" value="Senden" />
         </form>
       </div>
 
