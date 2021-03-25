@@ -48,7 +48,7 @@
           </div>
           <div class="name">
             <p class="label">Name:</p>
-            <input v-model="name" type="text" name="name" required />
+            <input v-model="name" type="text" name="name" pattern="^[A-Za-zäöü ,.'-]+$" required />
           </div>
           <div class="birthdate">
             <p class="label">Geburtsdatum</p>
